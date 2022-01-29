@@ -52,7 +52,7 @@ MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
             });
         });
     });
-});
+}); // end of callback hell
 
 
 // MongoClient.connect(url, { useUnifiedTopology: true }, (err, client) => {
